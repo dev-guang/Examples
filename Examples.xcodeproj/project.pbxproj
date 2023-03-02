@@ -14,6 +14,8 @@
 		3E25851B29AE4DC700CC83B2 /* ExamplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E25851A29AE4DC700CC83B2 /* ExamplesTests.swift */; };
 		3E25852529AE4DC700CC83B2 /* ExamplesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E25852429AE4DC700CC83B2 /* ExamplesUITests.swift */; };
 		3E25852729AE4DC700CC83B2 /* ExamplesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E25852629AE4DC700CC83B2 /* ExamplesUITestsLaunchTests.swift */; };
+		3E29D4A629B0DE8E00C68FAB /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E29D4A529B0DE8E00C68FAB /* MapView.swift */; };
+		3E943C4E29B0DDA10058EDAD /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E943C4D29B0DDA10058EDAD /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		3E25852029AE4DC700CC83B2 /* ExamplesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExamplesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E25852429AE4DC700CC83B2 /* ExamplesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamplesUITests.swift; sourceTree = "<group>"; };
 		3E25852629AE4DC700CC83B2 /* ExamplesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamplesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3E29D4A529B0DE8E00C68FAB /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		3E943C4D29B0DDA10058EDAD /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				3E25850C29AE4DC700CC83B2 /* Assets.xcassets */,
 				3E25850E29AE4DC700CC83B2 /* Examples.entitlements */,
 				3E25850F29AE4DC700CC83B2 /* Preview Content */,
+				3E943C4D29B0DDA10058EDAD /* CircleImage.swift */,
+				3E29D4A529B0DE8E00C68FAB /* MapView.swift */,
 			);
 			path = Examples;
 			sourceTree = "<group>";
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E25850B29AE4DC600CC83B2 /* ContentView.swift in Sources */,
+				3E29D4A629B0DE8E00C68FAB /* MapView.swift in Sources */,
 				3E25850929AE4DC600CC83B2 /* ExamplesApp.swift in Sources */,
+				3E943C4E29B0DDA10058EDAD /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
